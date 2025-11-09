@@ -1,1 +1,1 @@
-node -e "const fs=require('fs'),zlib=require('zlib');const p='./analyze/library/dist/roxbury-lib.js';const b=fs.readFileSync(p);zlib.gzip(b,{level:9},(e,g)=>{if(e)throw e;console.log('gzip bytes:',g.length);console.log('gzip kB:',(g.length/1024).toFixed(2));});"
+
